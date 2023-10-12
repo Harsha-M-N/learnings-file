@@ -1,26 +1,26 @@
 # Introduction to Data Structures
-A data structure is a way to store and organize data in a computer so that it can be used efficiently.
-**Efficieny**: Efficiency of data structures is always measured in terms of time and space.
-In other words, it is used to implement an ADT.
-For example, in order to implement stack ADT, we can use an arry data structure or linked list data structure.
+A data structure is a way to store and organize data in a computer so that it can be used efficiently.<br>
+**Efficieny**: Efficiency of data structures is always measured in terms of time and space.<br>
+In other words, it is used to implement an ADT.<br>
+For example, in order to implement stack ADT, we can use an arry data structure or linked list data structure.<br>
 ADT tells us what is to be done and data structures tells us how to do it.
 
 ## Types of Data Structure
-1. **Linear Data Structures**: A data structure is linear when all the elements are arranged in a linear (sequential) order.
+1. **Linear Data Structures**: A data structure is linear when all the elements are arranged in a linear (sequential) order.<br>
 Examples: Array, Queue, Stack, and Linked List.
-2. **Non Linear Data Structures**: A data structure is non linear when all the elements are not arranged in a linear (sequential) order.
+2. **Non Linear Data Structures**: A data structure is non linear when all the elements are not arranged in a linear (sequential) order.<br>
 Examples: Tree, Graph
 
 ## What is static Data structures?
-In these type of data structures, the memory is allocated at compile time. Therefore, maximum size is fixed.
-Advantage: Fast access
-Disadvantage: Slower insertion and deletion
+In these type of data structures, the memory is allocated at compile time. Therefore, maximum size is fixed.<br>
+Advantage: Fast access<br>
+Disadvantage: Slower insertion and deletion<br>
 Example: Array
 
 ## What is Dynamic Data structures?
-In these type of data structures, the memory is allocated at the run time. Therefore, maximum size is flexible.
-Advantages: Faster insertion and deletion
-Disadvantages: Slower access
+In these type of data structures, the memory is allocated at the run time. Therefore, maximum size is flexible.<br>
+Advantages: Faster insertion and deletion<br>
+Disadvantages: Slower access<br>
 Example: Linked list
 
 ## What is a data type?
@@ -34,7 +34,7 @@ int type
 * Operations: addition, subtraction, multiplication, bitwise operations etc.
 
 ## What is a User defined data type?
-The operations and values of the user defined data types are not specified in the language itself but specified by the user.
+The operations and values of the user defined data types are not specified in the language itself but specified by the user.<br>
 Example: "Structure", "Union", and "Enumeration".
 
 By using structures, we are defining our own type by combining other data types.
@@ -42,7 +42,7 @@ By using structures, we are defining our own type by combining other data types.
 # Abstract data type
 ADTs are like user defined data types which defines operations on values using functions without specifying what is there inside the function and how the operations are performed.
 
-Example: Stack ADT
+Example: Stack ADT<br>
 A stack consists of elements of same type arranged in a sequential order.
 Operations:
 * initialize() - initializing it to be empty.
